@@ -1,5 +1,7 @@
 # fakerdoeslinux.github.io
 
+**Live at <https://fakerdoeslinux.github.io/>**
+
 A minimal, dependency-free project site for the FakerDoesLinux GitHub repos.
 Black base, navy surfaces, one blue accent — GitHub's information architecture
 with a quieter, Apple/Google-ish finish.
