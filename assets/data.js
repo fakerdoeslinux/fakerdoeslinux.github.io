@@ -1,6 +1,42 @@
 /* Project data — edit this file to update the site. */
 window.PROJECTS = [
   {
+    id: "wiidesk-linux",
+    name: "WiiDesk Linux",
+    repo: "wiidesk-linux",
+    owner: "fakerdoeslinux",
+    tagline: "The Wii Home Menu, native on Linux.",
+    description:
+      "A native GTK4 + WebKitGTK port of WiiDesk — the Wii Menu recreation — with native storage, launching, settings, and a tray icon. Not an Electron wrapper.",
+    about:
+      "WiiDesk Linux replaces WiiDesk's Electron shell with a native Python + GTK4 + libadwaita host and a WebKitGTK renderer. It keeps the original Wii Menu interface, then adds native JSON storage in XDG folders, Linux launching for URLs, executables, AppImages, .desktop files, and Wine .exe files, plus settings, credits, autostart, fullscreen, an optional tray icon, and a first-run media setup. This is a port, not a new original project: it is built on WiiDesk by the WiiDesk team, which is itself a modified version of Onliine by JerosGamer89. Please support both upstream projects.",
+    icon: "wiidesk",
+    language: "Python",
+    languageColor: "#3572A5",
+    license: "AGPL-3.0",
+    branch: "main",
+    pushedAt: "2026-10-29T23:39:09Z",
+    stars: 0,
+    forks: 0,
+    tags: ["GTK4", "WebKitGTK", "Wii", "AGPL-3.0"],
+    highlights: [
+      "Native GTK4 + libadwaita + WebKitGTK 6.0 host — no Electron",
+      "Built on WiiDesk, based on Onliine by JerosGamer89",
+      "Native JSON storage, settings, autostart, and tray icon",
+      "Launch URLs, executables, AppImages, .desktop files, and Wine .exe files",
+      "First-run media setup downloads from the pinned upstream commit",
+      "Fullscreen layout tested at 2560x1080 ultrawide",
+      "Wii artwork, fonts, and audio are not bundled or re-hosted"
+    ],
+    commandLabel: "Install",
+    command:
+      "git clone https://github.com/fakerdoeslinux/wiidesk-linux.git\ncd wiidesk-linux\n./install.sh",
+    note:
+      "Based on WiiDesk and Onliine by JerosGamer89, both AGPL-3.0. Nintendo artwork, fonts, and audio are not included; the app downloads them on first run or imports them from a local WiiDesk folder.",
+    primaryLabel: "View on GitHub",
+    liveUrl: null
+  },
+  {
     id: "deb2rpm",
     name: "deb2rpm",
     repo: "deb2rpm-gui",
